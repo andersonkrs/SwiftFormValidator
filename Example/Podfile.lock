@@ -1,0 +1,16 @@
+PODS:
+  - SwiftFormValidator (1.0.0)
+
+DEPENDENCIES:
+  - SwiftFormValidator (from `..`)
+
+EXTERNAL SOURCES:
+  SwiftFormValidator:
+    :path: ..
+
+SPEC CHECKSUMS:
+  SwiftFormValidator: ef1495e547d6d59f1f5f473ef7dceee207efd813
+
+PODFILE CHECKSUM: c2c0916be3cefa40aa9fec9b6fd9be1fd4f992ca
+
+COCOAPODS: 1.2.0
