@@ -289,7 +289,7 @@ class SwiftFormValidatorTests: XCTestCase {
     // MARK: Init passing delegate by parameter
     
     func testInitDelegate() {
-        XCTAssertNotNil(initDelegateValidator.delegate, "Delegate should be not nil")
+        XCTAssertTrue(initDelegateValidator.delegate != nil, "Delegate should be not nil")
     }
     
     // MARK: Rules For Control
