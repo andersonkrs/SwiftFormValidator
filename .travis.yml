@@ -8,5 +8,5 @@ before_install:
   - gem install cocoapods -v '1.2.0'
 
 script:
-  - xcodebuild clean build test -project SwiftFormValidator.xcodeproj -scheme SwiftFormValidatorTests
+  - xcodebuild clean build test -project SwiftFormValidator.xcodeproj -scheme SwiftFormValidator -sdk iphonesimulator -destination "platform=iOS Simulator,OS=10.1,name=iPhone 6"
   - pod lib lint
