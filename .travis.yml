@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode8
-xcode_sdk: iphonesimulator10.1
+xcode_sdk: iphonesimulator10.0
 xcode_project: SwiftFormValidator.xcodeproj
 xcode_scheme: SwiftFormValidator
 
@@ -8,5 +8,5 @@ before_install:
   - gem install cocoapods -v '1.2.0'
 
 script:
-  - xcodebuild clean build test -project SwiftFormValidator.xcodeproj -scheme SwiftFormValidator -sdk iphonesimulator -destination "platform=iOS Simulator,OS=10.1,name=iPhone 6"
+  - xcodebuild clean build test -project SwiftFormValidator.xcodeproj -scheme SwiftFormValidator -sdk iphonesimulator -destination "platform=iOS Simulator,OS=10.0,name=iPhone 6"
   - pod lib lint
