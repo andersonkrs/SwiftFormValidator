@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0F85C7A19A114A6471811FBEDECDF64C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		1FCF248CB1D050E186C93F634D41542C /* SwiftFormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3E48C9EADDB11EDF77B233F0CDE4D0 /* SwiftFormValidator-dummy.m */; };
-		21A31B95B553E99740B31DAC3BFB67EA /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35290D0A3810C3A75E5441898B5BB5 /* Validator.swift */; };
-		43D25C5346E05D72B32495EEDAA273C1 /* SwiftFormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EDBCEC11E25ED1DC88E4FD67B9BE78 /* SwiftFormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CEAC3549A1C30F89EEB0B8F71894D92 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		556D3ADFC2FBDF41DD14A0A60B404FBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		7E87EC758CB6D99284761BB5FD9B3F01 /* SwiftFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEA3AAD5E2716CD8EA77D82EA8CE860 /* SwiftFormValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85D0F30F1B67CC21A0DFA7EDB6776895 /* SwiftFormValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6404E2CF575C8D7D5DAD453D1B89A45D /* SwiftFormValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C2FF880896B7080488EB7DBF81C56E /* SwiftFormValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 784D87EB6C559C59474F2237B1DFE55C /* SwiftFormValidator-dummy.m */; };
+		ABC2E8735ADC46B8A1C8A5D6A5F5706D /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1542672BED4AA21115C7D133DCFB4BE2 /* Validator.swift */; };
 		BE1B6AA2E5AD73EAA802783D1805D9A8 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
+		D35EF6422FCF198751931B2BE2279E20 /* SwiftFormValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8928D75F6014CB81E905A7D4D7420F /* SwiftFormValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAFF341091EA063822913215F9EA4F85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,28 +30,28 @@
 
 /* Begin PBXFileReference section */
 		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		0D80EB146A44FCFF5385E72888FB58BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118874CC42485B5D7E56112D47BBDB30 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1542672BED4AA21115C7D133DCFB4BE2 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validator.swift; path = SwiftFormValidator/Validator.swift; sourceTree = "<group>"; };
 		1B0665AD099DD0A630C4267184AD0EE8 /* SwiftFormValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftFormValidator.framework; path = SwiftFormValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1BFEFF1A438A253FBD15692BA8D766 /* SwiftFormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftFormValidator-prefix.pch"; sourceTree = "<group>"; };
 		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		62EDBCEC11E25ED1DC88E4FD67B9BE78 /* SwiftFormValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftFormValidator-umbrella.h"; sourceTree = "<group>"; };
-		63BE037B934B65B6BC240813A5FDC58D /* SwiftFormValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftFormValidator-prefix.pch"; sourceTree = "<group>"; };
+		6404E2CF575C8D7D5DAD453D1B89A45D /* SwiftFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftFormValidator.h; path = SwiftFormValidator/SwiftFormValidator.h; sourceTree = "<group>"; };
 		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		6E705A72C6F4B318AC99E4F677850929 /* SwiftFormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftFormValidator.xcconfig; sourceTree = "<group>"; };
+		7098FE41FDAA099F577BDFBE975BEE22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		784D87EB6C559C59474F2237B1DFE55C /* SwiftFormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftFormValidator-dummy.m"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8B8928D75F6014CB81E905A7D4D7420F /* SwiftFormValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftFormValidator-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D89D7E50F4353A368290B2ABFFF72CB /* SwiftFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftFormValidator.modulemap; sourceTree = "<group>"; };
+		9FDAD717292EA335E199634B1DE61C7A /* SwiftFormValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftFormValidator.xcconfig; sourceTree = "<group>"; };
 		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AF35290D0A3810C3A75E5441898B5BB5 /* Validator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		BCEA3AAD5E2716CD8EA77D82EA8CE860 /* SwiftFormValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwiftFormValidator.h; sourceTree = "<group>"; };
 		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		DDCCC68C4579400F791A3D4B91A5FB73 /* SwiftFormValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftFormValidator.modulemap; sourceTree = "<group>"; };
 		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF3E48C9EADDB11EDF77B233F0CDE4D0 /* SwiftFormValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftFormValidator-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,11 +75,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		154E669E1FB6F1C725877C84C014548D /* SwiftFormValidator */ = {
+		0BC5AC8C05CDAE934A07C0053BDC0060 /* SwiftFormValidator */ = {
 			isa = PBXGroup;
 			children = (
-				BCEA3AAD5E2716CD8EA77D82EA8CE860 /* SwiftFormValidator.h */,
-				AF35290D0A3810C3A75E5441898B5BB5 /* Validator.swift */,
+				6404E2CF575C8D7D5DAD453D1B89A45D /* SwiftFormValidator.h */,
+				1542672BED4AA21115C7D133DCFB4BE2 /* Validator.swift */,
+				77039052A89AA9D6BB758A6A37C92DBB /* Support Files */,
 			);
 			name = SwiftFormValidator;
 			path = SwiftFormValidator;
@@ -110,47 +111,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		71461D1408BDC00193FDC3F45BA4EC26 /* Support Files */ = {
+		77039052A89AA9D6BB758A6A37C92DBB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0D80EB146A44FCFF5385E72888FB58BE /* Info.plist */,
-				DDCCC68C4579400F791A3D4B91A5FB73 /* SwiftFormValidator.modulemap */,
-				6E705A72C6F4B318AC99E4F677850929 /* SwiftFormValidator.xcconfig */,
-				FF3E48C9EADDB11EDF77B233F0CDE4D0 /* SwiftFormValidator-dummy.m */,
-				63BE037B934B65B6BC240813A5FDC58D /* SwiftFormValidator-prefix.pch */,
-				62EDBCEC11E25ED1DC88E4FD67B9BE78 /* SwiftFormValidator-umbrella.h */,
+				7098FE41FDAA099F577BDFBE975BEE22 /* Info.plist */,
+				9D89D7E50F4353A368290B2ABFFF72CB /* SwiftFormValidator.modulemap */,
+				9FDAD717292EA335E199634B1DE61C7A /* SwiftFormValidator.xcconfig */,
+				784D87EB6C559C59474F2237B1DFE55C /* SwiftFormValidator-dummy.m */,
+				4A1BFEFF1A438A253FBD15692BA8D766 /* SwiftFormValidator-prefix.pch */,
+				8B8928D75F6014CB81E905A7D4D7420F /* SwiftFormValidator-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftFormValidator";
+			path = "../Target Support Files/SwiftFormValidator";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B9426E8AD378BB2657FD6EADE4DDFFAF /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E05B02D4E9C7C1209D5EE88A9D56EDFB /* Pods */,
 				31697405B320FF0B96417E605A045715 /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B03BF89661944AAA3544E13A90CFB97E /* SwiftFormValidator */ = {
+		E05B02D4E9C7C1209D5EE88A9D56EDFB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				71461D1408BDC00193FDC3F45BA4EC26 /* Support Files */,
-				154E669E1FB6F1C725877C84C014548D /* SwiftFormValidator */,
+				0BC5AC8C05CDAE934A07C0053BDC0060 /* SwiftFormValidator */,
 			);
-			name = SwiftFormValidator;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B9426E8AD378BB2657FD6EADE4DDFFAF /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B03BF89661944AAA3544E13A90CFB97E /* SwiftFormValidator */,
-			);
-			name = "Development Pods";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -183,12 +174,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3A829FF6FC337376DE9176311E6F1C83 /* Headers */ = {
+		36D45CF0C15A927B7406F39CFE7C32F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43D25C5346E05D72B32495EEDAA273C1 /* SwiftFormValidator-umbrella.h in Headers */,
-				7E87EC758CB6D99284761BB5FD9B3F01 /* SwiftFormValidator.h in Headers */,
+				D35EF6422FCF198751931B2BE2279E20 /* SwiftFormValidator-umbrella.h in Headers */,
+				85D0F30F1B67CC21A0DFA7EDB6776895 /* SwiftFormValidator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +216,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 183BB23DAEBD0A5D2F5DCF0C64966A2B /* Build configuration list for PBXNativeTarget "SwiftFormValidator" */;
 			buildPhases = (
-				7C2B2910F0D99443FE3C2E82185149EF /* Sources */,
+				84FB0FCA7CC97BBE269A6AE2D75E1B4C /* Sources */,
 				1C05927113707C58A4FBCDD7EA9B195A /* Frameworks */,
-				3A829FF6FC337376DE9176311E6F1C83 /* Headers */,
+				36D45CF0C15A927B7406F39CFE7C32F5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -274,12 +265,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C2B2910F0D99443FE3C2E82185149EF /* Sources */ = {
+		84FB0FCA7CC97BBE269A6AE2D75E1B4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCF248CB1D050E186C93F634D41542C /* SwiftFormValidator-dummy.m in Sources */,
-				21A31B95B553E99740B31DAC3BFB67EA /* Validator.swift in Sources */,
+				A0C2FF880896B7080488EB7DBF81C56E /* SwiftFormValidator-dummy.m in Sources */,
+				ABC2E8735ADC46B8A1C8A5D6A5F5706D /* Validator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +364,7 @@
 		};
 		79D60CE7AF6EC4DD36946EBEF7A4773B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E705A72C6F4B318AC99E4F677850929 /* SwiftFormValidator.xcconfig */;
+			baseConfigurationReference = 9FDAD717292EA335E199634B1DE61C7A /* SwiftFormValidator.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -484,7 +475,7 @@
 		};
 		EA0A6D32E773E83B0F9AFD2E35AD01ED /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E705A72C6F4B318AC99E4F677850929 /* SwiftFormValidator.xcconfig */;
+			baseConfigurationReference = 9FDAD717292EA335E199634B1DE61C7A /* SwiftFormValidator.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

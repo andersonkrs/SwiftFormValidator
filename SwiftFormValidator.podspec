@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "A library to simplify form validation in Siwft"
   s.homepage     = "https://github.com/AndersonSKM/SwiftFormValidator"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  #s.screenshots  = "https://github.com/AndersonSKM/SwiftFormValidator/blob/master/assets/example.gif"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Anderson Macedo" => "anderson.krs95@gmail.com" }
   s.platform     = :ios

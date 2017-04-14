@@ -2,15 +2,20 @@ PODS:
   - SwiftFormValidator (1.0.0)
 
 DEPENDENCIES:
-  - SwiftFormValidator (from `..`)
+  - SwiftFormValidator (from `https://github.com/AndersonSKM/SwiftFormValidator`)
 
 EXTERNAL SOURCES:
   SwiftFormValidator:
-    :path: ..
+    :git: https://github.com/AndersonSKM/SwiftFormValidator
+
+CHECKOUT OPTIONS:
+  SwiftFormValidator:
+    :commit: 8781eed4e690b7c9f9ef2e8e4e80e43090957ee3
+    :git: https://github.com/AndersonSKM/SwiftFormValidator
 
 SPEC CHECKSUMS:
-  SwiftFormValidator: ef1495e547d6d59f1f5f473ef7dceee207efd813
+  SwiftFormValidator: b68cec2639024b419c284cf2e4bc1a90ee01cd41
 
-PODFILE CHECKSUM: c2c0916be3cefa40aa9fec9b6fd9be1fd4f992ca
+PODFILE CHECKSUM: 3acd1c8f9b9482162103b5b076aaffc662f4bae9
 
 COCOAPODS: 1.2.0

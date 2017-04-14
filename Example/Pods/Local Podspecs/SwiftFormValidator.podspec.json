@@ -1,9 +1,12 @@
 {
   "name": "SwiftFormValidator",
   "version": "1.0.0",
-  "summary": "A tool for validate UITextFields.",
+  "summary": "A library to simplify form validation in Siwft",
   "homepage": "https://github.com/AndersonSKM/SwiftFormValidator",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "authors": {
     "Anderson Macedo": "anderson.krs95@gmail.com"
   },

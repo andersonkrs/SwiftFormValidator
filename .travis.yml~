@@ -8,5 +8,4 @@ before_install:
   - gem install cocoapods -v '1.2.0'
 
 script:
-  - xcodebuild clean build test -project SwiftFormValidator.xcodeproj -scheme SwiftFormValidatorTests
   - pod lib lint
