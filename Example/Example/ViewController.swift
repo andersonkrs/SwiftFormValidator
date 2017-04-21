@@ -35,7 +35,7 @@ class ViewController: UITableViewController, ValidatorDelegate {
         
         validator.delegate = self
         
-        validator.register(control: edUserName, label: lbUserName, rules: [RequiredRule(), AlphaNumericRule()])
+        validator.register(control: edUserName, label: lbUserName, rules: [RequiredRule(), AlphaNumericRule(), MinLengthRule(length: 5)])
         
         validator.register(control: edFullName, label: lbFullName, rules: [RequiredRule(), FullNameRule()])
         
@@ -46,6 +46,8 @@ class ViewController: UITableViewController, ValidatorDelegate {
         validator.register(control: edConfirm, label: lbConfirm, rules: [RequiredRule(), ConfirmRule(confirmField: edPassword)])
         
         validator.register(control: edProductkey, label: lbProductKey, rules: [RequiredRule(), ProductKeyRule()])
+        
+        validator.unregister(control: edProductkey)
     }
 
     override func didReceiveMemoryWarning() {
@@ -111,15 +113,11 @@ class ViewController: UITableViewController, ValidatorDelegate {
         
         for validation in validations {
             
-            validation.label?.textColor = UIColor.red
-            
             if (validation.rule == nil) {
                 validation.label?.isHidden = true
-                validation.control.layer.borderColor = UIColor.black.cgColor
             } else {
                 validation.label?.isHidden = false
                 validation.label?.text = validation.rule?.errorMsg
-                validation.control.layer.borderColor = UIColor.red.cgColor
             }
             
         }
