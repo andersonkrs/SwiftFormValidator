@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SwiftFormValidator:
-    :commit: 8781eed4e690b7c9f9ef2e8e4e80e43090957ee3
+    :commit: b6d786fe6bb8617bc4ee3355dd0ed55b0a2ddb08
     :git: https://github.com/AndersonSKM/SwiftFormValidator
 
 SPEC CHECKSUMS:
