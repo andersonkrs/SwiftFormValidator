@@ -56,7 +56,7 @@ override func viewDidLoad() {
     validator.register(control: edEmail, label: lbEmail, rules: [RequiredRule(), EmailRule()])
 
     //You can pass a custom error message in all rules
-    validator.register(control: edPassword, label: lbPassword, rules: [RequiredRule(), WeakPasswordRule(message: "Weak"),MediumPasswordRule(message: "Medium"), StrongPasswordRule(message: "Strong")])
+    validator.register(control: edPassword, label: lbPassword, rules: [RequiredRule(), StrongPasswordRule(message: "Strong")])
 
     //You can pass a custom regex in constructor for rules of type RegexRules
     validator.register(control: edConfirm, label: lbConfirm, rules: [RequiredRule(), ConfirmRule(confirmField: edPassword)])
