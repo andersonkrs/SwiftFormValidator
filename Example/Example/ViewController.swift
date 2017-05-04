@@ -55,7 +55,7 @@ class ViewController: UITableViewController, ValidatorDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func submmit() -> Void {
+    @IBAction func submit() -> Void {
         validator.validateAll()
     }
     
